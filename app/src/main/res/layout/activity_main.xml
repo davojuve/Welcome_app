@@ -11,6 +11,13 @@
     tools:context="am.wedo.davit.welcomeapp.MainActivity"
     android:id="@+id/welcomeLinearLayout" >
 
+    <Button
+        android:layout_width="346dp"
+        android:layout_height="0dp"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_weight="0.35" />
+
     <TextView
         android:id="@+id/textOnWelcomeScreen"
         android:layout_width="wrap_content"
@@ -30,5 +37,7 @@
         android:layout_weight="1"
         android:src="@drawable/boy1"
         android:contentDescription="@string/app_logo" />
+
+
 
    </LinearLayout>
