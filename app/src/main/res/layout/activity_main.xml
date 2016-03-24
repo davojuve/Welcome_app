@@ -31,6 +31,4 @@
         android:src="@drawable/boy1"
         android:contentDescription="@string/app_logo" />
 
-
-
    </LinearLayout>
